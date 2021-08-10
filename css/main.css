@@ -1,1 +1,97 @@
 
+body{                   /*背景样式*/
+    background-attachment: fixed;
+    background-color: rgb(56, 51, 51);
+    padding-left: auto;
+    padding-right: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 隶书;
+    font-size: 30px;
+}
+
+.div_navi{      /*导航栏*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.h1_title{          /*大标题*/
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 1px 4px 12px #6B6B6B;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 60px;
+}
+
+#img_title {     /*tatan图标*/
+    width: 10%;
+    margin-bottom: -2.5%;
+    padding-right: -2%;
+}
+
+.input1 {
+    /*提交按钮样式，左边两列*/
+    width: 5cm;
+    height: 1.5cm;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 0.6cm;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+
+.input1:active {
+    /*鼠标滑点击时提交按钮的改变，左边两列*/
+    color: rgb(255, 255, 255);
+    font-size: 1.7cm;
+    background-color: rgb(82, 79, 79);
+    border: solid rgba(15, 15, 15, 0.8);
+    font-family: 隶书;
+}
+
+.input2 {
+    /*提交按钮样式，中间一列*/
+    width: 5cm;
+    height: 1.5cm;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    font-size: 0.6cm;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+
+.input2:active {
+    /*鼠标点击时提交按钮的改变，中间一列*/
+    color: rgb(255, 255, 255);
+    font-size: 1.7cm;
+    background-color: rgb(82, 79, 79);
+    border: solid rgba(20, 20, 20, 0.7);
+    font-family: 隶书;
+}
+
+.input3 {
+    /*提交按钮样式，右边两列*/
+    width: 5cm;
+    height: 1.5cm;
+    font-size: 0.6cm;
+    margin-right: 5%;
+    margin-top: 4%;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+
+.input3:active {
+    /*鼠标滑过时提交按钮的改变，右边两列*/
+    color: rgb(255, 255, 255);
+    font-size: 1.7cm;
+    background-color: rgb(82, 79, 79);
+    border: solid rgba(20, 20, 20, 0.7);
+    font-family: 隶书;
+}
