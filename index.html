@@ -1,35 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>岁月无声官网</title>
+    <title>岁月留声</title>
+    <link rel="stylesheet" href="./bao/Zico逐浪矢量图标系统/css/zico.min.css">
+    <script src="./bao/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="./bao/bootstrap-5.0.1-dist/css/bootstrap.css">
+    <script src="./bao/bootstrap-5.0.1-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/css.css">
+    
 </head>
-<link href="../主官网/CSS 主官网.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="../主官网/JavaScript 主官网.js"></script>
-<link type="image/x-icon" href="./图标/go.png">
-<script src="../package/jQuery/jquery-3.6.0.js"></script>
-<link rel="stylesheet" href="../zico/css/zico.min.css" rel="stylesheet">
-
 <body>
-    <h1 class="headline"><img id="img1" src="./图标/tatan1.png" title="tatan">岁月无声官方网站</h1>
-    <form>
-        <div id="div1">
-            ①常用软件网站：
-            <!--       <img id="img2" src="./图标/百度 彩图.png" title="百度">
-                            <img id="img2" src="./图标/哔哩哔哩 黑图.png" title="哔哩哔哩">
-                            <img id="img2" src="./图标/腾讯视频 彩图文.png" title="腾讯视频">
-                            <img id="img2" src="./图标/爱奇艺 彩图文.png" title="爱奇艺">
-                            <img id="img2" src="./图标/优酷 彩图.png" title="优酷">
-                            <img id="img2" src="./图标/外星人.png" title="矢量图库">
-                            <img id="img2" src="./图标/百度地图.png" title="百度地图">
-                            <img id="img2" src="./图标/邮箱.png" title="QQ邮箱">
-                            <img id="img2" src="./图标/微博彩图.png" title="新浪微博">
-                            <img id="img2" src="./图标/百度 彩图.png" title="">  -->
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light div_navi">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bolder;">SYWS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">首页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">岁月无声</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <!-- 大标题 -->
+      <div class="contanier">
+        <h1 class="h1_title">
+          <img id="img_title" src="./image/tatan1.png" title="tatan">
+          常用网站
+        </h1>
+      </div>
+
+      <div class="contanier">
+        <h2>
+          ①常用软件网站：
+        </h2>
         <a href="http://baidu.com/">
-            <input class="input1" id="a1" type="button" value="百度" title="点击打开百度">
+          <input class="input1" id="a1" type="button" value="百度" title="点击打开百度">
         </a>
         <a href="https://www.bilibili.com/">
             <input class="input1" id="a2" type="button" value="哔哩哔哩" title="点击打开哔哩哔哩">
@@ -43,201 +61,16 @@
         <a href="http://www.youku.com/">
             <input class="input3" id="a5" type="button" value="优酷" title="点击打开优酷">
         </a>
-        <br>
-        <!--第一行-->
-        <a href="https://www.iconfont.cn/">
-            <input class="input1" id="b1" type="button" value="矢量图库" title="点击打开阿里巴巴矢量图标图库">
-        </a>
-        <a href="https://map.baidu.com/">
-            <input class="input1" id="b2" type="button" value="百度地图" title="点击打开百度地图">
-        </a>
-        <a href="https://mail.qq.com/">
-            <input class="input2" id="b3" type="button" value="QQ邮箱" title="点击打开QQ邮箱">
-        </a>
-        <a href="https://weibo.com/">
-            <input class="input3" id="b4" type="button" value="微博" title="点击打开新浪微博">
-        </a>
-        <a href="https://www.wasu.cn/">
-            <input class="input3" id="b5" type="button" value="华数TV" title="点击打开华数TV">
-        </a>
-        <br>
-        <!--第二行-->
-        <div id="div1">
-            ②与学校相关网站：
-            <!--          <img id="img2" src="./图标/广东药科大学校徽.png" title="广东药科大学">-->
-        </div>
-        <a href="http://jwsys.gdpu.edu.cn">
-            <input class="input1" id="c1" type="button" value="教务系统" title="点击打开教务系统">
-        </a>
-        <a href="https://www.gdpu.edu.cn/">
-            <input class="input1" id="c2" type="button" value="广东药科大学" title="点击打开广东药科大学官网">
-        </a>
-        <a href="https://eswis.gdpu.edu.cn/default.aspx">
-            <input class="input2" id="c3" type="button" value="学工系统" title="点击打开广东药科大学学工系统">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="c4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="c5" type="button" value="百度" title="点击打开">
-        </a>
-        <br>
-        <!--第三行-->
-        <div id="div1">
-            ③自学网站：
-            <!--           <img id="img2" src="./图标/html.png" title="HTML">
-                            <img id="img2" src="./图标/css.png" title="CSS">
-                            <img id="img2" src="./图标/英语.png" title="English">
-                            <img id="img2" src="./图标/go.png" title="GO">
-                            <img id="img2" src="./图标/python.png" title="Python">
-                            <img id="img2" src="./图标/java.png" title="Java">
-                            <img id="img2" src="./图标/pdf.png" title="PDF">
-                            <img id="img2" src="./图标/sql.png" title="SQL">
-                            <img id="img2" src="./图标/java-script.png" title="JavaScript">
-                            <img id="img2" src="./图标/Ps.png" title="PS">
-                            <img id="img2" src="./图标/Pr.png" title="Pr">
-                            <img id="img2" src="./图标/Adobe Ae.png" title="Ae"> -->
-        </div>
-        <a href="http://app.xunjiepdf.com/">
-            <input class="input1" id="d1" type="button" value="迅捷PDF转化器" title="文件转换与处理，2M内免费，还有论文查重">
-        </a>
-        <a href="https://www.gaoding.com/">
-            <input class="input1" id="d2" type="button" value="稿定设计" title="在线修图网站，有免费的模板">
-        </a>
-        <a href="https://www.imooc.com/">
-            <input class="input2" id="d3" type="button" value="慕课网" title="学习前端，后端技术，各种计算机语言。">
-        </a>
-        <a href="http://www.doyoudo.com/">
-            <input class="input3" id="d4" type="button" value="doyoudo" title="有剪辑、平面设计课程，有付费也有免费。如ps、ae、pr等等">
-        </a>
-        <a href="https://www.liuchengtu.com/">
-            <input class="input3" id="d5" type="button" value="迅捷画图" title="学习辅助工具，思维导图，流程图等等">
-        </a>
-        <br>
-        <!--第四行-->
-        <a href="https://www.xuetangx.com/">
-            <input class="input1" id="e1" type="button" value="学堂在线" title="中国各大名校，中文慕课平台">
-        </a>
-        <a href="http://www.duolingo.cn/">
-            <input class="input1" id="e2" type="button" value="多邻国" title="各国语言学习网站，如英语、韩语、日语等等">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input2" id="e3" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="e4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="e5" type="button" value="百度" title="点击打开">
-        </a>
-        <br>
-        <!--第五行-->
-        <a href="http://baidu.com">
-            <input class="input1" id="f1" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input1" id="f2" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input2" id="f3" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="f4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="f5" type="button" value="百度" title="点击打开">
-        </a>
-        <br>
-        <!--第六行-->
-        <div id="div1">
-            ④壁纸网站：
-        </div>
-        <a href="http://pic.netbian.com/ ">
-            <input class="input1" id="g1" type="button" value="彼岸图库" title="点击打开彼岸图库，搜索电脑壁纸">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input1" id="g2" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input2" id="g3" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="g4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="g5" type="button" value="百度" title="点击打开">
-        </a>
-        <br>
-        <!--第七行-->
-        <a href="http://baidu.com">
-            <input class="input1" id="h1" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input1" id="h2" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input2" id="h3" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="h4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="h5" type="button" value="百度" title="点击打开">
-        </a><br>
-        <!-- 第八行 -->
-        <div id="div1">
-            ④工具网站：
-        </div>
-        <a href="https://www.ilovepdf.com/zh-cn">
-            <input class="input1" id="i1" type="button" value="ilove PDF" title="点击打开live PDF，编辑PDF">
-        </a>
-        <a href="https://convertio.co/zh/">
-            <input class="input1" id="i2" type="button" value="Convertio" title="点击打开Convertio,文件格式转化">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input2" id="i3" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="i4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="i5" type="button" value="百度" title="点击打开">
-        </a>
-        <br>
-        <!-- 第九行 -->
-        <a href="http://pic.netbian.com/ ">
-            <input class="input1" id="j1" type="button" value="彼岸图库" title="点击打开彼岸图库，搜索电脑壁纸">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input1" id="j2" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input2" id="j3" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="j4" type="button" value="百度" title="点击打开">
-        </a>
-        <a href="http://baidu.com">
-            <input class="input3" id="j5" type="button" value="百度" title="点击打开">
-        </a>
-        <br>
-    </form>
+      </div>
+      
+      
 
-
-    <div id="divb"><hr>
-        <span class="span1">岁月无声其他网站：</span><br><br>
-        <a href="../应用EXE/应用EXE.html" title="点击打开应用EXE网" id="net">应用EXE</a>
-        <a href="#" title="点击打开" id="net">xxx</a>
-    </div>
-
-
-    <div id="diva">
-        提示：当前网站仍在建设中，后续会继续进行改进。<br>
-        声明：此网站有岁月无声工作室制作，若有侵权请联系
-        <a href="mailto:3302600931@qq.com" title="打开作者邮箱：岁月无声" id="zuozhe"> @联系作者 </a>删除，未经允许不可转载。
+      <div class="contanier">
+        <p>提示：当前网站仍在建设中，后续会继续进行改进。</p>
+        <p>声明：此网站有岁月无声工作室制作，若有侵权请联系 
+        <a href="mailto:sywswaj@163.com" title="打开作者邮箱：岁月无声" id="zuozhe"> @联系作者 </a>删除，未经允许不可转载。</p> 
         <div style="text-align: center;font-size: larger;">Copyright <i class="zi zi_copyright"></i> 2020-2021 岁月无声</div>
     </div>
-    
 </body>
-
+<script src="./js/js.js"></script>
 </html>
