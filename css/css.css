@@ -63,4 +63,9 @@ body{                   /*背景样式*/
     margin-left: 20px;
     margin-right: 20px;
 }
+.copyright{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 4%;
+}
 
