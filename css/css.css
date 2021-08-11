@@ -1,6 +1,6 @@
 body{                   /*背景样式*/
     background-attachment: fixed;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(60, 60, 60);
     padding-left: auto;
     padding-right: auto;
     color: rgba(255, 255, 255, 0.8);
@@ -55,7 +55,7 @@ body{                   /*背景样式*/
     font-family: 隶书;
 }
 .btn:hover{         /*滑过时样式*/
-    color: rgb(100, 100, 100);
+    color: rgb(60, 60, 60);
     background-color: rgba(255, 255, 255, 1);
 
 }
