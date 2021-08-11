@@ -1,0 +1,67 @@
+body{                   /*背景样式*/
+    background-attachment: fixed;
+    background-color: rgb(56, 51, 51);
+    padding-left: auto;
+    padding-right: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 隶书;
+    font-size: 25px;
+}
+
+.padd{              /*边界距离*/
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#author{            /*底部作者申明*/
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.h1_title{          /*大标题*/
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 1px 4px 12px #6B6B6B;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    font-size: 60px;
+}
+
+#img_title {     /*tatan图标*/
+    width: 150px;
+    margin-bottom: -2.5%;
+    padding-right: -2%;
+}
+
+.link{          /*按钮链接*/
+    text-decoration: none;
+}
+
+.btn{           /*链接按钮*/
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 150px;
+    height: 54px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+    
+}
+.btn:hover{         /*滑过时样式*/
+    color: rgb(56, 51, 51);
+    background-color: rgba(255, 255, 255, 1);
+
+}
+.link_cell{         /*单元样式*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
