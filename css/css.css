@@ -53,7 +53,6 @@ body{                   /*背景样式*/
     border-radius: 7px;
     cursor: pointer;
     font-family: 隶书;
-    
 }
 .btn:hover{         /*滑过时样式*/
     color: rgb(56, 51, 51);
