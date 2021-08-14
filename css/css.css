@@ -8,6 +8,11 @@ body{                   /*背景样式*/
     font-size: 25px;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .padd{              /*边界距离*/
     padding-left: 5%;
     padding-right: 5%;
