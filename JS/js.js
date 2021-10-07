@@ -140,7 +140,7 @@ var computer = [
 
 content("software",software)
 content("tool",tool)
-content("tool",book)
+content("book",book)
 content("computer",computer)
 
 function content(idStr,arr){
