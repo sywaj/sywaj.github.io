@@ -37,12 +37,16 @@ var software = [
         linkStr:"https://weibo.com/",
         name:"微博"
     },
-    {
+	{
         linkStr:"https://mail.qq.com/",
+        name:"QQ邮箱"
+    },
+    {
+        linkStr:"https://email.163.com/",
         name:"网易邮箱"
     },
     {
-        linkStr:"https://www.kugou.com/",
+        linkStr:"https://y.qq.com/",
         name:"QQ音乐"
     },
     {
@@ -142,6 +146,11 @@ content("software",software)
 content("tool",tool)
 content("book",book)
 content("computer",computer)
+
+// var softworeStr = ""
+// var tool = ""
+// var book = ""
+// var computer = ""
 
 function content(idStr,arr){
     var str = ""
