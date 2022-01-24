@@ -1,162 +1,76 @@
-
-//常用软件
-var software = [
+let types = [
     {
-        linkStr:"http://baidu.com/",
-        name:"百度"
+        id : "often",
+        data : often,
+        describe : "常用网站"
     },
     {
-        linkStr:"https://bilibili.com/",
-        name:"哔哩哔哩"
+        id : "software",
+        data : software,
+        describe : "常用软件网站"
     },
     {
-        linkStr:"https://v.qq.com/",
-        name:"腾讯视频"
+        id:"resources",
+        data: resources,
+        describe:"常用资源网站"
     },
     {
-        linkStr:"https://iqiyi.com/",
-        name:"爱奇艺"
+        id:"videoAndaudio",
+        data:videoAndaudio,
+        describe:"视频与音频网站"
     },
     {
-        linkStr:"http://pan.baidu.com/",
-        name:"百度网盘"
+        id : "tool",
+        data : tool,
+        describe : "常用工具网站"
     },
     {
-        linkStr:"https://ximalaya.com/",
-        name:"喜马拉雅"
+        id : "book",
+        data : book,
+        describe : "常用书籍搜索网站"
     },
     {
-        linkStr:"https://map.baidu.com/",
-        name:"百度地图"
+        id : "computerve",
+        data : computer,
+        describe : "常用计算机网站"
     },
     {
-        linkStr:"http://www.wasu.cn/",
-        name:"华数TV"
+        id : "other",
+        data : other,
+        describe : "其他网站"
     },
-    {
-        linkStr:"https://weibo.com/",
-        name:"微博"
-    },
-	{
-        linkStr:"https://mail.qq.com/",
-        name:"QQ邮箱"
-    },
-    {
-        linkStr:"https://email.163.com/",
-        name:"网易邮箱"
-    },
-    {
-        linkStr:"https://y.qq.com/",
-        name:"QQ音乐"
-    },
-    {
-        linkStr:"https://www.kugou.com/",
-        name:"酷狗音乐"
-    },
-    {
-        linkStr:"https://music.163.com/",
-        name:"网易云"
-    },
-    {
-        linkStr:"https://fanyi.baidu.com",
-        name:"百度翻译"
-    },
-    {
-        linkStr:"https://youdao.com/",
-        name:"有道"
-    }
 ];
 
-//常用工具
-var tool = [
-    {
-        linkStr:"https://www.iconfont.cn/",
-        name:"矢量图库"
-    },
-    {
-        linkStr:"https://www.ilovepdf.com/zh-cn",
-        name:"ilove PDF"
-    },
-    {
-        linkStr:"https://convertio.co/zh/",
-        name:"Convertio"
-    },
-    {
-        linkStr:"http://www.ipaddress.com/",
-        name:"IP查询"
+let sort = ["一" , "二" , "三" , "四" , "五" , "六" , "七" , "八" , "九" , "十"];
+
+
+let str = "";
+for(let i = 0;i < types.length;i++){
+    let id = types[i].id;
+    let type = types[i].describe;
+    let s = "";
+    let item = types[i].data;//获取链接数据
+    for(let j = 0;j < item.length;j++){
+        let url = item[j].url;
+            let name = item[j].name;
+        s += `<span class='link_cell'>
+                <a href="${url}" class='link' target='_blank' >
+                    <button class='my_btn'>
+                        ${name}
+                    </button>
+                </a>
+             </span>`;
     }
-]
-
-//书籍搜索
-var book = [
-    {
-        linkStr:"https://ebook2.lorefree.com/",
-        name:"lorefree"
-    },
-    {
-        linkStr:"https://www.bandubook.com/",
-        name:"伴读"
-    },
-    {
-        linkStr:"http://www.jb51.net/",
-        name:"脚本之家"
-    },
-    {
-        linkStr:"http://www.xz577.com",
-        name:"码农之家"
-    },
-    {
-        linkStr:"http://www.toplinks.cc/",
-        name:"淘链客"
-    },
-    {
-        linkStr:"https://www.kindle8.cc/",
-        name:"kindle 吧"
-    }
-]
-
-var computer = [
-    {
-        linkStr:"https://github.com/",
-        name:"GitHub"
-    },
-    {
-        linkStr:"https://gitee.com/",
-        name:"码云"
-    },
-    {
-        linkStr:"http://getbootstrap.com/",
-        name:"bootstrap"
-    },
-    {
-        linkStr:"http://jquery.com",
-        name:"jQuery"
-    },
-    {
-        linkStr:"https://ico.z01.com/",
-        name:"逐浪"
-    },
-    {
-        linkStr:"https://www.crx4chrome.com/",
-        name:"插件"
-    }
-]
-
-content("software",software)
-content("tool",tool)
-content("book",book)
-content("computer",computer)
-
-// var softworeStr = ""
-// var tool = ""
-// var book = ""
-// var computer = ""
-
-function content(idStr,arr){
-    var str = ""
-    for(var i=0;i<arr.length;i++){
-        str += "<span class='link_cell'>"+"<a href="+arr[i].linkStr+" class='link' target='_blank'>"+
-            "<button class='btn'>"+arr[i].name+"</button></a></span>"
-    }
-    document.getElementById(idStr).innerHTML = str
+    str += `<p class="p_divide">
+                <a class="a_divide" data-bs-toggle="collapse" href="#${id}" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    ${sort[i] + " " + type}
+                </a>
+            </p>
+            <div class="collapse" id="${id}" >
+                <div class="computer my_card">
+                    ${s}
+                </div>
+            </div>`
 }
+
+document.getElementById("content").innerHTML = str;
