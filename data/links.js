@@ -87,7 +87,7 @@ let tool = [
     {url:"https://mh.cli.im/",name:"二维码"},
     {url:"https://carbon.now.sh/",name:"代码截图"},
     {url:"https://www.remove.bg/zh/",name:"在线抠图"},
-    {url:"https://www.fly63.com/tool/svg2img/",name:"SVG到PNG"},
+    {url:"https://www.fly63.com/tool/svg2img/",name:"SVF-PNG"},
     {url:"https://www.fly63.com/tool/giftxt/",name:"视频到GIF"},
     {url:"https://www.fly63.com/tool/ewm/",name:"二维码"},
     {url:"https://www.fly63.com/php/decoder/",name:"解码"},
