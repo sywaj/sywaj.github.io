@@ -19,7 +19,7 @@ let software = [
     {url:"https://www.pinduoduo.com/",name:"拼多多"},
     {url:"https://weibo.com/",name:"微博"},
     {url:"https://www.zhihu.com/",name:"知乎"},
-	{url:"https://mail.qq.com/",name:"QQ邮箱"},
+    {url:"https://mail.qq.com/",name:"QQ邮箱"},
     {url:"https://email.163.com/",name:"网易邮箱"},
     {url:"https://www.12306.cn/",name:"12306"},
     {url:"https://youdao.com/",name:"有道翻译"},
@@ -44,6 +44,11 @@ let resources = [
     {url:"https://www.fly63.com/php/ico/",name:"ICO图标"},
     {url:"https://ico.z01.com/",name:"逐浪图库"},
     {url:"https://www.crx4chrome.com/",name:"插件"},
+    {url:"https://neets.cc/",name:"Neets"},
+    {url:"https://gaoqing.fm/",name:"高清电台"},
+    {url:"https://www.nfmovies.com/",name:"奈菲影视"},
+    {url:"https://www.mvcat.com/",name:"猫影"},
+    {url:"https://www.bqrdh.com/",name:"不求人"},
 ]
 
 //视频与音频网站
