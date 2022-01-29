@@ -49,6 +49,8 @@ let resources = [
     {url:"https://www.nfmovies.com/",name:"奈菲影视"},
     {url:"https://www.mvcat.com/",name:"猫影"},
     {url:"https://www.bqrdh.com/",name:"不求人"},
+    {url:"http://music.y444.cn/#/",name:"下歌吧"},
+    {url:"http://www.musictool.top/",name:"音乐搜索"},
 ]
 
 //视频与音频网站
