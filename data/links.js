@@ -51,6 +51,7 @@ let resources = [
     {url:"https://www.bqrdh.com/",name:"不求人"},
     {url:"http://music.y444.cn/#/",name:"下歌吧"},
     {url:"http://www.musictool.top/",name:"音乐搜索"},
+    {url:"http://assrt.net/",name:"射手网"},
 ]
 
 //视频与音频网站
