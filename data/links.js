@@ -52,6 +52,10 @@ let resources = [
     {url:"http://music.y444.cn/#/",name:"下歌吧"},
     {url:"http://www.musictool.top/",name:"音乐搜索"},
     {url:"http://assrt.net/",name:"射手网"},
+    {url:"https://zmk.pw/",name:"字幕库"},
+    {url:"https://vip.bljiex.cc/",name:"BL解析"},
+    {url:"https://www.rjsos.com/",name:"软件下载"},
+    {url:"https://www.aigei.com/",name:"爱给"},
 ]
 
 //视频与音频网站
