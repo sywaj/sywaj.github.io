@@ -134,6 +134,16 @@ let computer = [
     {url:"https://gitee.com/",name:"码云"},
     {url:"http://getbootstrap.com/",name:"bootstrap"},
     {url:"http://jquery.com",name:"jQuery"},
+    {url:"https://www.csdn.net/",name:"CSDN"},
+    {url:"https://java.com/zh-CN/",name:"JAVA"},
+    {url:"https://www.python.org/",name:"Python"},
+    {url:"https://golang.google.cn/",name:"GoLang"},
+    {url:"https://www.javascript.com/",name:"JS"},
+    {url:"https://www.mysql.com/",name:"MySQL"},
+    {url:"https://www.internetdownloadmanager.com/",name:"IDM"},
+    {url:"https://www.freedownloadmanager.org/",name:"FDM"},
+    {url:"https://motrix.app/",name:"Motrix"},
+    {url:"https://www.tiobe.com/tiobe-index/",name:"TIOBE"},
 ]
 
 //其他
@@ -147,5 +157,7 @@ let other = [
     {url:"https://www.huaweicloud.com/",name:"华为云"},
     {url:"https://www.aliyun.com/",name:"阿里云"},
     {url:"https://cloud.tencent.com/",name:"腾讯云"},
+    {url:"https://www.alipay.com/",name:"支付宝"},
+    {url:"https://weixin.qq.com/",name:"微信"},
 ];
 
