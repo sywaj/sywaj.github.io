@@ -159,5 +159,14 @@ let other = [
     {url:"https://cloud.tencent.com/",name:"腾讯云"},
     {url:"https://www.alipay.com/",name:"支付宝"},
     {url:"https://weixin.qq.com/",name:"微信"},
+    {url:"https://www.abchina.com/cn/",name:"农业银行"},
+    {url:"http://www.ccb.com/",name:"建设银行"},
+    {url:"http://www.icbc.com.cn/",name:"工商银行"},
+    {url:"http://www.pbc.gov.cn/",name:"人民银行"},
+    {url:"https://www.psbc.com/",name:"邮政银行"},
+    {url:"http://www.bankcomm.com/",name:"交通银行"},
+    {url:"http://www.cdb.com.cn/",name:"开发银行"},
+    {url:"http://www.eximbank.gov.cn/",name:"进口银行"},
+    {url:"http://www.adbc.com.cn/",name:"农发行"},
 ];
 
