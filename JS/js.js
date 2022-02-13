@@ -74,3 +74,26 @@ for(let i = 0;i < types.length;i++){
 }
 
 document.getElementById("content").innerHTML = str;
+
+// 搜索引擎
+
+let s_link = 'bd'
+let s_list = {
+    bd : {name:'百度搜索', url:'http://www.baidu.com', s:'/s?ie=UTF-8&wd='},
+    sg : {name:'搜狗搜索', url:'https://www.sogou.com', s:'/web?ie=utf8&query='},
+    sll : {name:'360 搜索', url:'https://www.so.com', s:'/s?ie=utf8&q='},
+}
+//搜索按钮，搜索框
+document.getElementById("s_btn").onclick = function(){
+    let wd = document.getElementById("wd").value
+    if (wd == ""){
+        open(s_list[s_link].url)
+    }else{
+        open(s_list[s_link].url + s_list[s_link].s + wd)
+    }
+}
+//搜索引擎按钮
+function search_btn( btn_word ){
+    document.getElementById('search_list').value = s_list[btn_word].name;
+    s_link = btn_word;
+}
