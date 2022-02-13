@@ -100,3 +100,30 @@ a{                      /*页面上所有链接*/
     font-size: 18px;
     padding-bottom: 4%;
 }
+
+.search_title{      /*搜索引擎标题*/
+    color:rgb(60, 60, 60);
+    font-size: 30px;
+}
+
+.search_btns{       /*搜索引擎按钮组*/
+    color: rgb(60, 60, 60);
+    background-color: transparent;
+    border-color: rgb(60, 60, 60);
+    border: solid 2px;
+    width: 100px;
+    height: 40px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.search_btns:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(60, 60, 60);
+}
+#wd{        /*搜索引擎搜索框*/
+    font-size: 30px;
+}   
