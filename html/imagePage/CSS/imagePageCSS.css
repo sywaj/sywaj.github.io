@@ -1,1 +1,84 @@
+body{
+    background-attachment: fixed;
+    background-color: rgb(60, 60, 60);
+    padding-left: auto;
+    padding-right: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 隶书;
+    font-size: 25px;
+}
+a{                      /*页面上所有链接*/
+    text-decoration: none;
+    color: inherit;
+}
 
+.h1_title{          /*大标题*/
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 1px 4px 12px #6B6B6B;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    font-size: 50px;
+}
+#img_title {     /*图标*/
+    width: 150px;
+    margin-bottom: -2.5%;
+    padding-right: -2%;
+}
+
+.list_title{    /*各个系类的标题*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    width: max-content;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.list_title:hover{
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#imgs{
+    width: 160px;
+    height: auto;
+    box-shadow: 10px 10px 10px #999999;
+    border:4px rgba(180, 180, 180, 0.8) solid;
+    border-radius: 20px;
+}
+
+.item_body{     /*每个大类除标题外部分*/
+    min-height: 20px;
+    color: rgb(60,60,60);
+    width: 100%;
+}
+.my_card{       /*每个大类*/
+    padding: 0;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+
+#author{            /*底部作者申明*/
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+}
+.line{              /*底部线条*/
+    border: solid 2px white;
+    margin-bottom: 2%;
+}
+.other{             /*其他页面*/
+    color: rgba(255, 255, 255, 1) ;
+}
+.other:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 4%;
+}
