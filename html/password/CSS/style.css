@@ -1,0 +1,92 @@
+body{                   /*背景样式*/
+    background-attachment: fixed;
+    background-color: rgb(60, 60, 60);
+    padding-left: auto;
+    padding-right: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 隶书;
+    font-size: 20px;
+}
+a{                      /*页面上所有链接*/
+    text-decoration: none;
+    color: inherit;
+}
+
+.h1_title{          /*大标题*/
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 1px 4px 12px #6B6B6B;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    font-size: 50px;
+}
+
+#img_title {     /*图标*/
+    width: 150px;
+    margin-bottom: -2.5%;
+    padding-right: -2%;
+}
+
+#viewPassword{ /*密码显示框*/
+    font-size: 30px;
+}
+#chackForm{ /*密码组成选择*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.chackFormTitle{ /*密码组成选择标题*/
+    font-size: 30px;
+}
+
+#createBtn{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.btnCell{         /*按钮单元样式*/
+    padding: auto;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.myBtn{           /*按钮内容*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 200px;
+    height: 50px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.myBtn:hover{         /*滑过时样式*/
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+#author{            /*底部作者申明*/
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+}
+.line{              /*底部线条*/
+    border: solid 2px white;
+    margin-bottom: 2%;
+}
+.other{             /*其他页面*/
+    color: rgba(255, 255, 255, 1) ;
+}
+.other:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 4%;
+}
