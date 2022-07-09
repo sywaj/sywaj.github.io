@@ -19,7 +19,7 @@ let software = [
     {url:"https://www.pinduoduo.com/",name:"拼多多"},
     {url:"https://weibo.com/",name:"微博"},
     {url:"https://www.zhihu.com/",name:"知乎"},
-    {url:"https://mail.qq.com/",name:"QQ邮箱"},
+	{url:"https://mail.qq.com/",name:"QQ邮箱"},
     {url:"https://email.163.com/",name:"网易邮箱"},
     {url:"https://www.12306.cn/",name:"12306"},
     {url:"https://youdao.com/",name:"有道翻译"},
@@ -30,6 +30,7 @@ let software = [
     {url:"http://people.cn/",name:"人民网"},
     {url:"https://www.gmw.cn/",name:"光明网"},
     {url:"https://meituan.com/",name:"美团"},
+    {url:"https://www.xiaohongshu.com/",name:"小红书"},
 ]
 
 
@@ -72,7 +73,6 @@ let videoAndaudio = [
     {url:"https://music.163.com/",name:"网易云"},
     {url:"http://www.kuwo.cn/",name:"酷我音乐"},
     {url:"https://ximalaya.com/",name:"喜马拉雅"},
-
 ]
 
 //常用工具
@@ -99,7 +99,7 @@ let tool = [
     {url:"https://mh.cli.im/",name:"二维码"},
     {url:"https://carbon.now.sh/",name:"代码截图"},
     {url:"https://www.remove.bg/zh/",name:"在线抠图"},
-    {url:"https://www.fly63.com/tool/svg2img/",name:"SVF-PNG"},
+    {url:"https://www.fly63.com/tool/svg2img/",name:"SVG-PNG"},
     {url:"https://www.fly63.com/tool/giftxt/",name:"视频到GIF"},
     {url:"https://www.fly63.com/tool/ewm/",name:"二维码"},
     {url:"https://www.fly63.com/php/decoder/",name:"解码"},
@@ -154,6 +154,7 @@ let other = [
     {url:"https://oppo.com/",name:"OPPO"},
     {url:"https://vivo.com/",name:"VIVO"},
     {url:"https://mi.com/",name:"小米"},
+    {url:"https://cloud.baidu.com/",name:"智能云"},
     {url:"https://www.huaweicloud.com/",name:"华为云"},
     {url:"https://www.aliyun.com/",name:"阿里云"},
     {url:"https://cloud.tencent.com/",name:"腾讯云"},
@@ -169,4 +170,3 @@ let other = [
     {url:"http://www.eximbank.gov.cn/",name:"进口银行"},
     {url:"http://www.adbc.com.cn/",name:"农发行"},
 ];
-
