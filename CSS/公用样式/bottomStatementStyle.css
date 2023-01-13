@@ -1,0 +1,21 @@
+/* 底部作者申明，其他链接样式 */
+#author{            /*底部作者申明*/
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+}
+.line{              /*底部线条*/
+    border: solid 2px white;
+    margin-bottom: 2%;
+}
+.other{             /*其他页面*/
+    color: rgba(255, 255, 255, 1) ;
+}
+.other:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.copyright{ /*权限*/
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 4%;
+}

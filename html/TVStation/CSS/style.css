@@ -1,0 +1,103 @@
+.my_tvwebs{         /*电视台官网*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 285px;
+    height: 100px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.my_tvwebs:hover{         /*滑过时样式*/
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+.my_webs{
+    width: 100%;
+}
+.a_tvwebs{     /*各个分类的链接样式*/
+    font-size: 25px;
+    color: rgb(60, 60, 60);
+    border: solid 2px rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 1);
+}
+.a_tvwebs:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+
+
+
+.p_divide{
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.a_divide{     /*各个分类的链接样式*/
+    font-size: 25px;
+    color: white;
+    border: solid 2px rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 15px; 
+}
+.a_divide:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(60, 60, 60);
+}
+
+.my_card{               /*每个按钮*/
+    background-color: transparent;
+    width: 105%;
+    padding: 0%;
+    margin-bottom: 30px;
+}
+
+.link_cell{         /*单元样式*/
+    padding: auto;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.link{          /*按钮链接*/
+    display: inline-block;
+}
+.my_btn{           /*链接按钮*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 285px;
+    height: 54px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.my_btn:hover{         /*滑过时样式*/
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.empty{     /*没有电视台时的提示文本*/
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#backTop{       /*回到顶部按钮*/
+    position:fixed;
+    bottom: 60px;
+    right: 10px;
+}
+#toBottom{      /*滑到底部*/
+    position:fixed;
+    bottom: 20px;
+    right: 10px;
+}

@@ -1,0 +1,34 @@
+.textTitle{     /*输入框标题*/
+    font-size: 30px;
+}
+
+.btnCell{         /*按钮单元样式*/
+    padding: auto;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.myBtn{           /*按钮内容*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 130px;
+    height: 54px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.myBtn:hover{         /*滑过时样式*/
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.btns{ /*按钮*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

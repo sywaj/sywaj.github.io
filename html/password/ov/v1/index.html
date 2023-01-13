@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link rel="stylesheet" href="../../../../CSS/公用样式/bigTitleStyle.css">
+    <link rel="stylesheet" href="../../../../CSS/公用样式/bottomStatementStyle.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="../../../../image/小图标/蜡笔小新.ico" />
+    <title>(旧版)随机生成密钥</title>
+</head>
+<body>
+    <!-- 大标题 -->
+    <h1 class="h1_title">
+        <img id="img_title" src="../../../../image/共用图片/蜡笔小新.png" title="新之助" >
+        <!-- <img id="img_title" src="https://s4.ax1x.com/2022/02/13/Hrct1S.png" title="新之助" > -->
+        <span style="vertical-align: bottom;">声声入耳</span>
+    </h1>
+
+    <div class="container">
+        <div id="viewPassword">
+            <label for="result">密码：</label>
+            <input class="form-control form-control-lg" id="result" type="text" placeholder="生成的密码" aria-label=".form-control-lg example">
+        </div>
+        
+        <div id="chackForm">
+            <div class="chackFormTitle">密码组成：</div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="num" id="number" checked>
+                <label class="form-check-label" for="number">
+                  数字
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="upper" id="upperLetter" checked>
+                <label class="form-check-label" for="upperLetter">
+                  大写字母
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="lower" id="lowerLetter" checked>
+                <label class="form-check-label" for="lowerLetter">
+                  小写字母
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="@" id="at">
+                <label class="form-check-label" for="at">
+                  @
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="#" id="jin">
+                <label class="form-check-label" for="jin">
+                  #
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="_" id="underline">
+                <label class="form-check-label" for="underline">
+                  _
+                </label>
+            </div>
+
+            <label for="other" class="chackFormTitle">其他字符：</label>
+            <input class="form-control" id="other" type="text" value="" placeholder="输入密码里的其他字符" aria-label="default input example">
+
+            <label for="length" class="chackFormTitle">密码长度：</label>
+            <input class="form-control" id="length" type="number" value="" placeholder="请输入密码长度" aria-label="default input example">
+
+        </div>
+        <div id="createBtn">
+            <span class='btnCell'><button class='myBtn' id="create">生成</button></span>
+        </div>
+    
+    </div>
+
+
+    <!-- 底部声明 -->
+    <div class="container">
+        <hr class="line" style="margin-top: 4%;">
+        <a href="../../../../index.html" target="_blank" class="other">主页</a>
+        <a href="../../index.html" target="_blank" class="other">新版</a>
+        <p>提示：当前网站为随机生成密钥网站，最大长度为一万，密钥默认有数字，大小写字母，由于使用随机数组生成，因此输入的特殊字符也不一定出现在最终密码中。</p>
+        <p>声明：此网站由 <b>sywaj</b> 制作，若有侵权请联系 
+        <a href="mailto:sywswaj@163.com" title="打开作者邮箱：sywaj" id="author"> @联系作者 </a>删除，未经允许不可转载。</p> 
+        <hr class="line">
+        <div class="copyright">Copyright © 2020-2022 <b>sywaj</b></div>
+    </div>
+    
+</body>
+<script src="./JS/js.js"></script>
+</html>

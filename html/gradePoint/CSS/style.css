@@ -1,0 +1,78 @@
+#content{ /*内容框*/
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tableTitle{    /*表单表头*/
+    text-align: center;
+    width: 25%;
+    font-size: 25px;
+}
+.cell{      /*单元格*/
+    width: 25%;
+    border-left: solid 1px rgb(60, 60, 60);
+    border-right: solid 1px rgb(60, 60, 60);
+}
+.oper{      /*操作*/
+    width: 25%;
+    text-align: center;
+    display: flex;
+}
+.image{     /*图标*/
+    width: 30px;
+}
+.imageWidth{  /*图片占位的额宽度*/
+    width: 50%;
+    cursor: pointer;
+    background: center no-repeat;
+    background-size: contain;
+}
+.imageWidth:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+.imgDel{        /*删除按钮*/
+    background-image: url("../image/删除.png");
+}
+.imgDel:hover{
+    background-image: url("../image/删除_黑.png");
+}
+.imgHid{        /*失效按钮*/
+    background-image: url("../image/隐藏.png");
+}
+.imgHid:hover{
+    background-image: url("../image/隐藏_黑.png");
+}
+.btnCell{         /*按钮单元样式*/
+    padding: auto;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.myBtn{           /*按钮内容*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 130px;
+    height: 54px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.myBtn:hover{         /*滑过时样式*/
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.result{ /*结果计算按钮*/
+    padding-top: auto;
+    padding-bottom: auto;
+    text-align: center;
+}
+
+#total{     /*绩点显示文本*/
+    font-size: 30px;
+}

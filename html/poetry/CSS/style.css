@@ -1,0 +1,24 @@
+#content{ /*内容框*/
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.poetry{    /*诗歌*/
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.verse{     /*诗句*/
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.author{ /*诗歌作者标题*/
+    font-size: 20px;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    font-weight: lighter;
+}
+a:hover{
+    color: rgba(255, 255, 255, 1);
+    /* font-weight: bold; */
+    font-weight: normal;
+}

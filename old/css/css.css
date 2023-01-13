@@ -1,0 +1,76 @@
+body{                   /*背景样式*/
+    background-attachment: fixed;
+    background-color: rgb(60, 60, 60);
+    padding-left: auto;
+    padding-right: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 隶书;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.padd{              /*边界距离*/
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.h1_title{          /*大标题*/
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 1px 4px 12px #6B6B6B;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    font-size: 50px;
+}
+
+#img_title {     /*图标*/
+    width: 150px;
+    margin-bottom: -2.5%;
+    padding-right: -2%;
+}
+
+.link{          /*按钮链接*/
+    text-decoration: none;
+}
+#content{
+    margin-left: 5%;
+}
+
+.btn{           /*链接按钮*/
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border: solid 2px;
+    width: 130px;
+    height: 54px;
+    margin-left: 0%;
+    margin-right: -2%;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 隶书;
+}
+.btn:hover{         /*滑过时样式*/
+    color: rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 1);
+}
+.link_cell{         /*单元样式*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.copyright{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 4%;
+}
+
+#author{            /*底部作者申明*/
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 28px;
+}

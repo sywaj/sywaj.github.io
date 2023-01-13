@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link rel="stylesheet" href="../../CSS/公用样式/bigTitleStyle.css">
+    <link rel="stylesheet" href="../../CSS/公用样式/bottomStatementStyle.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="../../image/小图标/蜡笔小新.ico" />
+    <title>绩点计算</title>
+</head>
+<body>
+    <!-- 大标题 -->
+    <h1 class="h1_title"></h1>
+
+    <div class="container" id="content">
+        <!-- 标题 -->
+        <div class="input-group-text">
+            <div class="tableTitle">学分</div> 
+            <div class="tableTitle">绩点</div>
+            <div class="tableTitle">备注</div>
+            <div class="tableTitle">操作</div>
+        </div>
+    </div>
+    
+    <div class="container result">
+        <span class='btnCell'><button class='myBtn' id="addBtn">添加</button></span>
+        <span class='btnCell'><button class='myBtn' id="resultBtn">结果</button></span>
+    </div>
+
+    <!-- 底部声明 -->
+    <div class="container">
+        <hr class="line" style="margin-top: 4%;">
+        <a href="../../index.html" target="_blank" class="other">主页</a>
+        <a href="./ov/v1/" target="_blank" class="other">旧版</a>
+        <p>
+            提示：当前网站为绩点计算的网站，右边第一个按钮为删除该行的操作，第二个按钮点击之后，该行不参与绩点的运算，最多100个科目。<br/>
+            学分：即为该科获取的学分，默认为2.0分；<br/>
+            绩点：为该科获得的绩点，也可填写该科获得的分数；<br/>
+            备注：如：大学物理，只为方便记忆，不参与运算，可省略；
+        </p>
+        <p class="authortips"></p>
+        <hr class="line">
+        <div class="copyright"></div>
+    </div>
+    
+</body>
+<script src="./JS/js.js"></script>
+<script src="../../JS/common.js"></script>
+</html>
