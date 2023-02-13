@@ -1,0 +1,94 @@
+/* 半透明背景 */
+.bgc{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.5);
+    margin-left: -8px;
+}
+/* 图标 */
+.logo{
+    max-height: 40px;
+    min-height: 40px;
+}
+/* 说明框 */
+#showInfo{
+    width: 400px;
+    height: 250px;
+    color: black;
+    background-color: rgba(220, 220, 220, 0.9);
+    margin-left: calc(50% - 200px);
+    margin-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 12px;
+}
+/* 说明框标题 */
+#headline{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+/* 标题之后的文字 */
+#infoBody{
+    line-height: 25px;
+}
+/* 每一项的说明文字 */
+.item{
+    font-weight: bold;
+}
+/* 隐藏父元素的滚动条(overflow Hide) */
+.ofHide{
+    overflow: hidden;
+}
+/* 设置高度，用于隐藏滚动条的父元素 */
+.hide{
+    height: 25px;
+}
+/* 全名 */
+#fullname{
+    overflow-x: scroll;
+    /* 长度不够时，遇到空格不换行 */
+    white-space: nowrap;
+}
+/* 链接 */
+#url{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+/* 简介文本 */
+#briefTip{
+    overflow-y: scroll;
+    height: 72px;
+    /* 加上滚动条的宽度 */
+    width: calc(100% + 18px);
+}
+/* 说明框底部 */
+#bottomBtn{
+    /* 与上面 #showInfo 设置的值对应 */
+    margin-left: -40px;
+    margin-right: -40px;
+}
+/* 底部按钮 */
+.infoBtn{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 44px;
+    margin-top: 18px;
+    margin-right: -10px;
+    padding-top: 8px;
+    cursor: pointer;
+    font-size: 22px;
+}
+/* 鼠标滑过的样式 */
+#copyLink:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 12px;
+}
+#iGotIt:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 12px;
+}
