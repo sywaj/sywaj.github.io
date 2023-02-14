@@ -77,6 +77,10 @@ let resources = [
     {url:"https://vip.bljiex.cc/",      name:"BL解析",  id:"BLjiexi",       fullname:"BL解析",          logo:defLogo,tip:"BL视频解析"},
     {url:"https://jx.51flv.cc/play.php?url=",name:"视频解析",id:"51flv",    fullname:"视频解析",         logo:defLogo,tip:"在线视频解析"},
     {url:"https://www.cilixiong.com/",  name:"磁力熊",  id:"cilixiong",     fullname:"磁力熊",           logo:"磁力熊.png",tip:"高清影片在线观看"},
+    {url:"https://msdn.itellyou.cn/",   name:"MSDN",    id:"msdn",         fullname:"MSDN",             logo:"MSDN.png",tip:"Windows操作系统下载网站"},
+    {url:"https://next.itellyou.cn/",   name:"ITELLYOU",id:"itellyou",     fullname:"ITELLYOU",         logo:"ITELLYOU.png",tip:"原版软件下载网站"},
+    {url:"https://hellowindows.cn/",    name:"OS下载",  id:"hellowindows", fullname:"HelloWindows",      logo:defLogo,tip:"Windows操作系统下载网站"},
+    {url:"https://tb.rg-adguard.net/public.php",name:"TechBench",id:"teachBench",fullname:"TechBench",   logo:defLogo,tip:"Windows操作系统下载网站"},
 ]
 
 //视频与音频网站
@@ -172,6 +176,7 @@ let computer = [
     {url:"http://bugmenot.com/",        name:"临时账号",id:"bugmenot",  fullname:"BugMeNot",        logo:"BugMeNot.png",tip:"临时账号网站，如甲骨文公司的临时账号"},
     {url:"https://www.tiobe.com/tiobe-index/",name:"TIOBE",id:"tiobe",  fullname:"TIOBE",           logo:"TIOBE.svg",tip:"TIOBE编程语言排行版"},
     {url:"https://linuxone.cloud.marist.edu/",name:"Linuxone",id:"linuxone",fullname:"LinuxONE",    logo:"LinuxONE.png",tip:"IBM公司提供的免费获取linux服务器的网站"},
+    {url:"https://www.latex-project.org/",name:"LaTeX",id:"latex",     fullname:"LaTeX",           logo:"LaTeX.svg",tip:"LaTeX 官网"},
 ]
 
 //其他
