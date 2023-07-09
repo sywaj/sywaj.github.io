@@ -75,4 +75,6 @@
 
 #total{     /*绩点显示文本*/
     font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
 }
