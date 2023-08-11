@@ -1,4 +1,4 @@
-let defLogo = "default.ico"
+let defLogo = "../default.ico"
 
 //常用网站
 let often  =[
@@ -81,6 +81,8 @@ let resources = [
     {url:"https://next.itellyou.cn/",   name:"ITELLYOU",id:"itellyou",     fullname:"ITELLYOU",         logo:"ITELLYOU.png",tip:"原版软件下载网站"},
     {url:"https://hellowindows.cn/",    name:"OS下载",  id:"hellowindows", fullname:"HelloWindows",      logo:defLogo,tip:"Windows操作系统下载网站"},
     {url:"https://tb.rg-adguard.net/public.php",name:"TechBench",id:"teachBench",fullname:"TechBench",   logo:defLogo,tip:"Windows操作系统下载网站"},
+    {url:"https://www.tabelf.com/collaboration/0/zqxztjmf",name:"GPT 镜像",id:"GPTmirroring",fullname:"GPT 镜像链接",   logo:"gpt.png",tip:"chatCPT国内镜像链接"},
+    {url:"https://www.jkxuexi.com/resources/917.html?t=1691201215957",name:"科学上网",id:"KeXueShangWang",fullname:"即刻学习（科学上网）",   logo:"kexueshangwang.png",tip:"即刻学习（科学上网）"},
 ]
 
 //视频与音频网站
@@ -140,6 +142,9 @@ let tool = [
     {url:"https://docsmall.com/",       name:"文件压缩",    id:"docsmall",  fullname:"docsmall",        logo:"docsmall.png",tip:"文件压缩网站，如图片GIF、DPF等"},
     {url:"https://www.tutieshi.com/video/",name:"图贴士",   id:"tutieshi",  fullname:"图贴士",           logo:"图贴士.png",tip:"图片压缩(PNG、GIF、JPG)、视频生成GIF"},
     {url:"https://www.passwordmonster.com/",name:"密码强度",id:"mimaqiangdu",fullname:"PasswordMonster",logo:"PasswordMonster.webp",tip:"密码强度的检验网站"},
+    {url:"https://www.grammarly.com/grammar-check",name:"语法检验",id:"FreeGrammarChecker",fullname:"Free Grammar Checker",logo:defLogo,tip:"英语语法检查网站"},
+    {url:"http://md.aclickall.com/",name:"md排版",id:"markdownShow",fullname:"markdown排版",logo:defLogo,tip:"markdown 显示的排版网站"},
+    {url:"https://www.wenshushu.cn/",name:"文叔叔",id:"wenshushu",fullname:"文叔叔临时网盘",logo:"wenshushu.png",tip:"文叔叔临时网盘，支持非登录上传文件，不限速、单个文件支持5G、累计40G"},
 ]
 
 //书籍搜索
@@ -285,6 +290,51 @@ let bioinfo = [
     {url:"https://cytoscape.org/",      name:"Cytoscape",id:"cytoscape",fullname:"Cytoscape",                       logo:"Cytoscape.svg",tip:"Cytoscape 网络生成、分析等的软件。"},
     {url:"https://igraph.org/",         name:"igraph",  id:"igraph",    fullname:"igraph",                          logo:"igraph.svg",tip:"igraph R语言中与蛋白质互作网络分析的相关软件包。"},
     {url:"https://thebiogrid.org/",     name:"BioGrid", id:"biogrid",   fullname:"BioGrid",                         logo:defLogo,tip:"BioGrid 蛋白质相互作用网络资源数据库。"},
+    {url:"http://www.genomesize.com/search.php", name:"<span style='font-size:20px;'>基因组大小</span>",   id:"genomesize",     fullname:"genomesize",          logo:defLogo,tip:"基因组大小的检索"},
+];
+
+//生物信息类学习资源网站
+let bioinfosrc = [
+    {url:"https://www.biostars.org/",           
+        name:"Biostars",   id:"biostars",     fullname:"Biostars",          logo:"Biostars.svg",tip:"Biostars为一个生物信息类问题的提问网站"},
+    {url:"https://www.seqanswers.com/",           
+        name:"SEQanswers",   id:"seqanswers",     fullname:"SEQanswers",          logo:"SEQanswers.png",tip:"SEQanswers为一个生物信息类问题的提问网站"},
+    {url:"https://satijalab.org/seurat/articles/pbmc3k_tutorial.html",           
+        name:"scRNAseq",   id:"scrnaseq",     fullname:"单细胞转录组测序数据分析",          logo:defLogo,tip:"单细胞转录组测序数据分析"},
+    {url:"https://combine-australia.github.io/RNAseq-R/06-rnaseq-day1.html#voom-transform-the-data",           
+        name:"RNAseq",   id:"rnaseq",     fullname:"转录组测序数据分析",          logo:defLogo,tip:"转录组测序数据分析"},
+    {url:"https://satijalab.org/seurat/articles/spatial_vignette.html",           
+        name:"<span style='font-size:20px;'>空间RNAseq</span>",   id:"kjrnaseq",     fullname:"空间转录组测序数据分析",          logo:defLogo,tip:"空间转录组测序数据分析"},
+    {url:"https://bioinformaticsworkbook.org/tutorials/wgcna.html#gsc.tab=0",           
+        name:"WGCNA",   id:"wgcna",     fullname:"WGCNA",          logo:defLogo,tip:"WGCNA加权共表达网络分析"},
+    {url:"https://www.anaconda.com/",   
+        name:"anaconda",id:"anaconda", fullname:"anaconda",         logo:"anaconda.svg",tip:"anaconda 官网"},
+    {url:"https://docs.conda.io/en/latest/miniconda.html",           
+        name:"miniconda",   id:"miniconda",     fullname:"miniconda",          logo:defLogo,tip:"miniconda 下载"},
+    {url:"https://mirrors.bfsu.edu.cn/",           
+        name:"清华镜像",   id:"qinghuajingxiang",     fullname:"清华大学开源软件镜像站",          logo:"qinghuajingxiang.png",tip:"清华大学开源软件镜像站"},
+    {url:"https://mirrors.tuna.tsinghua.edu.cn/",           
+        name:"北外镜像",   id:"beiwaijingxiang",     fullname:"北京外国语大学开源软件镜像站",          logo:"qinghuajingxiang.png",tip:"北京外国语大学开源软件镜像站"},
+    {url:"https://mirrors.tuna.tsinghua.edu.cn/",           
+        name:"conda频道",   id:"condachannel",     fullname:"添加conda频道",          logo:"qinghuajingxiang.png",tip:"添加conda频道"},
+    {url:"https://anaconda.org/search",           
+        name:"conda检索",   id:"condasearch",     fullname:"anaconda search",          logo:"anaconda.svg",tip:"anaconda的官网检索，用于查询是否有可安装的软件包"},
+    {url:"https://bioconda.github.io/",           
+        name:"bioconda",   id:"bioconda",     fullname:"bioconda",          logo:"bioconda.png",tip:"bioconda的官网，用于查询是否有可安装的生物类软件包"},
+    {url:"https://mybiosoftware.com/",           
+        name:"<span style='font-size:20px;'>biosoftware</span>",   id:"biosoftware",     fullname:"biosoftware",          logo:defLogo,tip:"生物类软件的下载网站"},
+    {url:"http://www.cookbook-r.com/",           
+        name:"<span style='font-size:20px;'>CookbookForR</span",   id:"cookbookforr",     fullname:"Cookbook For R",          logo:"r_graphics_cookbook.png",tip:"Cookbook For R网站，用于R语言基础的学习"},
+    {url:"https://swcarpentry.github.io/r-novice-gapminder/index.html",           
+        name:"R学习",   id:"rxuexi",     fullname:"R for Reproducible Scientific Analysis",          logo:defLogo,tip:"R表示可重复的科学分析"},
+    {url:"https://compgenomr.github.io/book/",           
+        name:"R和基因组",   id:"rgenomics",     fullname:"Computational Genomics with R",          logo:defLogo,tip:"使用R进行计算基因组学的学习"},
+    {url:"http://www.sthda.com/english/wiki/ggsave-save-a-ggplot-r-software-and-data-visualization",           
+        name:"ggsave",   id:"ggsave",     fullname:"ggsave",          logo:defLogo,tip:"和ggplot2类似的R语言数据可视化包"},
+    {url:"https://rpkgs.datanovia.com/ggpubr/index.html",           
+        name:"ggpubr",   id:"ggpubr",     fullname:"ggsave",          logo:defLogo,tip:"和ggplot2类似的R语言数据可视化包"},
+    {url:"http://www.sthda.com/english/wiki/data-visualization",           
+        name:"可视化",   id:"visualization",     fullname:"数据可视化基础",          logo:defLogo,tip:"数据可视化基础"},
 ];
 
 //已经无法访问的网站

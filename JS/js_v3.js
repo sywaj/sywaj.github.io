@@ -48,13 +48,18 @@ let types = [
         describe : "生物信息类网站"
     },
     {
+        id : "bioinfosrc",
+        data : bioinfosrc,
+        describe : "生物信息类学习资源网站"
+    },
+    {
         id : "dead",
         data : dead,
         describe : "已经无法访问的网站"
     },
 ];
 
-let sort = ["一" , "二" , "三" , "四" , "五" , "六" , "七" , "八" , "九" , "十"];
+let sort = ["一" , "二" , "三" , "四" , "五" , "六" , "七" , "八" , "九" , "十","十一"];
 
 /*
 <span class='link_cell'>
@@ -161,7 +166,7 @@ let content = document.getElementById("content")
 // 统计信息
 let total = 0;
 console.log("统计信息：")
-let nums = ['01','02','03','04','05','06','07','08','09','10']
+let nums = ['01','02','03','04','05','06','07','08','09','10',"11"]
 for(let i = 0;i < types.length;i++){
     let id = types[i].id;//每个大类的id，如：often、software
     let clazz = types[i].describe;//每个大类的描述
