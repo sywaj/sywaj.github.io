@@ -82,7 +82,11 @@ let resources = [
     {url:"https://hellowindows.cn/",    name:"OS下载",  id:"hellowindows", fullname:"HelloWindows",      logo:defLogo,tip:"Windows操作系统下载网站"},
     {url:"https://tb.rg-adguard.net/public.php",name:"TechBench",id:"teachBench",fullname:"TechBench",   logo:defLogo,tip:"Windows操作系统下载网站"},
     {url:"https://www.tabelf.com/collaboration/0/zqxztjmf",name:"GPT 镜像",id:"GPTmirroring",fullname:"GPT 镜像链接",   logo:"gpt.png",tip:"chatCPT国内镜像链接"},
-    {url:"https://www.jkxuexi.com/resources/917.html?t=1691201215957",name:"科学上网",id:"KeXueShangWang",fullname:"即刻学习（科学上网）",   logo:"kexueshangwang.png",tip:"即刻学习（科学上网）"},
+    {url:"https://www.jkxuexi.com/resources/917.html?t=1691201215957",name:"科学上网",id:"KeXueShangWang",fullname:"即刻学习（科学上网）",   logo:"即刻学习.png",tip:"即刻学习（科学上网）"},
+    {url:"https://16map.com/sitetag/wusunyinle",name:"一流导航",id:"yiliudaohang",fullname:"26个无损音乐网站",   logo:"一流导航.png",tip:"本频道共收录26款无损音乐相关的网站和网址，热门的平台有:魅力音乐网、果核音乐搜捜、纯音悦、无解实验室、mp3音乐下载，会持续更新，同时也为您提供了无损音乐的网站提交收录入口，来推广你的网站。"},
+    {url:"https://ghyinyue.com//?ref=16map.com#/home",name:"果核音乐",id:"xinguoheyinyue",fullname:"新果核音乐",   logo:defLogo,tip:"新果核音乐"},
+    {url:"https://gratisography.com/",    name:"<span style='font-size:18px;'>gratisography</span>",    id:"gratisography",  fullname:"gratisography",   logo:defLogo,tip:"图片资源网站"},
+    {url:"https://www.splitshire.com/",    name:"<span style='font-size:22px;'>SplitShire</span>",    id:"splitshire",  fullname:"SplitShire",   logo:defLogo,tip:"图片资源网站"},
 ]
 
 //视频与音频网站
@@ -143,8 +147,13 @@ let tool = [
     {url:"https://www.tutieshi.com/video/",name:"图贴士",   id:"tutieshi",  fullname:"图贴士",           logo:"图贴士.png",tip:"图片压缩(PNG、GIF、JPG)、视频生成GIF"},
     {url:"https://www.passwordmonster.com/",name:"密码强度",id:"mimaqiangdu",fullname:"PasswordMonster",logo:"PasswordMonster.webp",tip:"密码强度的检验网站"},
     {url:"https://www.grammarly.com/grammar-check",name:"语法检验",id:"FreeGrammarChecker",fullname:"Free Grammar Checker",logo:defLogo,tip:"英语语法检查网站"},
-    {url:"http://md.aclickall.com/",name:"md排版",id:"markdownShow",fullname:"markdown排版",logo:defLogo,tip:"markdown 显示的排版网站"},
-    {url:"https://www.wenshushu.cn/",name:"文叔叔",id:"wenshushu",fullname:"文叔叔临时网盘",logo:"wenshushu.png",tip:"文叔叔临时网盘，支持非登录上传文件，不限速、单个文件支持5G、累计40G"},
+    {url:"http://md.aclickall.com/",    name:"md排版",  id:"markdownShow",  fullname:"markdown排版",    logo:defLogo,tip:"markdown 显示的排版网站"},
+    {url:"https://www.wenshushu.cn/",   name:"文叔叔",  id:"wenshushu",     fullname:"文叔叔临时网盘",  logo:"wenshushu.png",tip:"文叔叔临时网盘，支持非登录上传文件，不限速、单个文件支持5G、累计40G"},
+    {url:"https://www.latexlive.com/",  name:"LaTeX公式",id:"latexgonshibianjiqi",fullname:"LaTeX公式编辑器",logo:defLogo,tip:"LaTeX公式编辑器"},
+    {url:"https://snapany.com/zh/",  name:"SnapAny",id:"snapany",fullname:"万能视频图片解析下载",logo:defLogo,tip:"万能视频图片解析下载"},
+    {url:"https://metaso.cn/?s=azhong",  name:"秘塔AI",id:"mitaaisousuo",fullname:"秘塔AI搜索",logo:defLogo,tip:"秘塔AI搜索-没有广告，直达结果"},
+    {url:"https://ideogram.ai/t/explore",    name:"ideogram",    id:"ideogram",  fullname:"ideogram",   logo:defLogo,tip:"AI作图网站"},
+    {url:"https://www.cilsou.com/",    name:"ONE NAV",    id:"onenav",  fullname:"ONE NAV",   logo:"onenav.png",tip:"磁力检索网站"},
 ]
 
 //书籍搜索
@@ -324,7 +333,7 @@ let bioinfosrc = [
     {url:"https://mybiosoftware.com/",           
         name:"<span style='font-size:20px;'>biosoftware</span>",   id:"biosoftware",     fullname:"biosoftware",          logo:defLogo,tip:"生物类软件的下载网站"},
     {url:"http://www.cookbook-r.com/",           
-        name:"<span style='font-size:20px;'>CookbookForR</span",   id:"cookbookforr",     fullname:"Cookbook For R",          logo:"r_graphics_cookbook.png",tip:"Cookbook For R网站，用于R语言基础的学习"},
+        name:"<span style='font-size:20px;'>CookbookForR</span>",   id:"cookbookforr",     fullname:"Cookbook For R",          logo:"r_graphics_cookbook.png",tip:"Cookbook For R网站，用于R语言基础的学习"},
     {url:"https://swcarpentry.github.io/r-novice-gapminder/index.html",           
         name:"R学习",   id:"rxuexi",     fullname:"R for Reproducible Scientific Analysis",          logo:defLogo,tip:"R表示可重复的科学分析"},
     {url:"https://compgenomr.github.io/book/",           
